@@ -1,4 +1,4 @@
-# ESLinter support for any javascript ES5, ES2015, ES.next and React project.
+# ESLinter support for any javascript ES5, ES2015, ES.next and React projects
 
 [![npm version](https://badge.fury.io/js/eslint-modules-standard-deviation.svg)](https://badge.fury.io/js/eslint-modules-standard-deviation)
 
@@ -12,33 +12,18 @@
 npm install eslint eslint-modules-standard-deviation --save-dev
 ```
 
-### ES2015, ES.next and React support
-```bash
-npm install babel-eslint eslint eslint-modules-standard-deviation --save-dev
-```
-
 ## Usage
 Add `extends` to project `.eslintrc`
 ```json
 {
-  "extends": ["eslint-config-standard-deviation"]
-}
-```
-
-### ES2015, ES.next and React support
-Add `parser` babel-eslint to `.eslintrc`
-```json
-{
-  "parser": "babel-eslint",
-  "extends": ["eslint-config-standard-deviation"]
+  "extends": ["standard-deviation"]
 }
 ```
 
 ### [optional] enable/disable [eslint rules](http://eslint.org/docs/rules/)
 ```json
 {
-  "parser": "babel-eslint",
-  "extends": ["eslint-config-standard-deviation"],
+  "extends": ["standard-deviation"],
   "rules": {
     "space-before-function-paren": ["2", "always"]
   }

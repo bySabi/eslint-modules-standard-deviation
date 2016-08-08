@@ -1,6 +1,6 @@
 {
   "name": "eslint-modules-standard-deviation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "standard deviation eslint config easy setup modules",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +25,7 @@
   ],
   "homepage": "https://github.com/bySabi/eslint-modules-standard-deviation#readme",
   "dependencies": {
+    "babel-eslint": "6.x.x",
     "eslint-config-standard-deviation": "*",
     "eslint-config-standard": "*",
     "eslint-config-standard-react": "*",
