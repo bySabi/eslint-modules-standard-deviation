@@ -14,7 +14,7 @@ npm install eslint eslint-modules-standard-deviation --save-dev
 
 ### ES2015, ES.next and React support
 ```bash
-npm install babel-eslint --save-dev
+npm install babel-eslint eslint eslint-modules-standard-deviation --save-dev
 ```
 
 ## Usage
