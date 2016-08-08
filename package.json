@@ -1,0 +1,36 @@
+{
+  "name": "eslint-modules-standard-deviation",
+  "version": "0.0.1",
+  "description": "standard deviation eslint config easy setup modules",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bySabi/eslint-modules-standard-deviation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bySabi/eslint-modules-standard-deviation/issues"
+  },
+  "keywords": [
+    "linter",
+    "eslint",
+    "config",
+    "shared",
+    "standard",
+    "ES5",
+    "ES2015",
+    "ES.next",
+    "React"
+  ],
+  "homepage": "https://github.com/bySabi/eslint-modules-standard-deviation#readme",
+  "dependencies": {
+    "babel-eslint": "6.x.x",
+    "eslint-modules-standard-deviation--es5": "*",
+    "eslint-config-standard-react": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*"
+  },
+  "author": "bySabi Files",
+  "license": "ISC"
+}
