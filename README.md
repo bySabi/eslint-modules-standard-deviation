@@ -12,8 +12,21 @@
 npm install eslint eslint-modules-standard-deviation --save-dev
 ```
 
+### ES2015, ES.next and React support
+```bash
+npm install babel-eslint --save-dev
+```
+
 ## Usage
-Add `extends` and `parser` to project `.eslintrc`
+Add `extends` to project `.eslintrc`
+```json
+{
+  "extends": ["eslint-config-standard-deviation"]
+}
+```
+
+### ES2015, ES.next and React support
+Add `parser` babel-eslint to `.eslintrc`
 ```json
 {
   "parser": "babel-eslint",
@@ -30,7 +43,6 @@ Add `extends` and `parser` to project `.eslintrc`
     "space-before-function-paren": ["2", "always"]
   }
 }
-```
 
 Add scripts to `package.json`
 ```json
