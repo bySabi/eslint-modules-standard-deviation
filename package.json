@@ -26,7 +26,7 @@
   "homepage": "https://github.com/bySabi/eslint-modules-standard-deviation#readme",
   "dependencies": {
     "babel-eslint": "6.x.x",
-    "eslint-modules-standard-deviation--es5": "*",
+    "eslint-modules-standard-deviation--es5": "bySabi/eslint-modules-standard-deviation--es5",
     "eslint-config-standard-react": "*",
     "eslint-plugin-promise": "*",
     "eslint-plugin-react": "*"
