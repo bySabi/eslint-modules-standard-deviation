@@ -28,8 +28,9 @@ Add `extends` to project `.eslintrc`
     "space-before-function-paren": ["2", "always"]
   }
 }
+```
 
-Add scripts to `package.json`
+### Add scripts to `package.json`
 ```json
 "scripts": {
   "lint": "eslint . --ext .js,.jsx",
