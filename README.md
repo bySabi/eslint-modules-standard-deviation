@@ -1,4 +1,4 @@
-# Linter support for any javascript ES5, ES2015, ES.next and React projects
+# eslint-modules-standard-deviation
 
 [![npm version](https://badge.fury.io/js/eslint-modules-standard-deviation.svg)](https://badge.fury.io/js/eslint-modules-standard-deviation)
 
