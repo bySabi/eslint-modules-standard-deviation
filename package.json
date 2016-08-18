@@ -1,6 +1,6 @@
 {
   "name": "eslint-modules-standard-deviation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "standard deviation eslint config easy setup modules",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
