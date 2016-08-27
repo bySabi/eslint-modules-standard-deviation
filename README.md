@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/eslint-modules-standard-deviation.svg)](https://badge.fury.io/js/eslint-modules-standard-deviation)
 [![npm downloads](https://img.shields.io/npm/dm/eslint-modules-standard-deviation.svg?style=flat-square)](https://www.npmjs.com/package/eslint-modules-standard-deviation)
+[![Known Vulnerabilities](https://snyk.io/test/github/bysabi/eslint-modules-standard-deviation/badge.svg)](https://snyk.io/test/github/bysabi/eslint-modules-standard-deviation)
 
 > Add linter settings easily to any javascript `ES5`, `ES2015`, `ES.next` or `React` project using shared eslint config, [eslint-config-standard-deviation](https://github.com/bySabi/eslint-config-standard-deviation), and [ESLint](http://eslint.org/)
 
