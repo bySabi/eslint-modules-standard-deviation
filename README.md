@@ -13,7 +13,7 @@
 npm install eslint eslint-modules-standard-deviation --save-dev
 ```
 
-#### `Node 4` support
+#### on `npm 2` environments
 ```bash
 npm install eslint eslint-config-standard-deviation eslint-modules-standard-deviation --save-dev
 ```
@@ -25,6 +25,14 @@ Add `extends` to project `.eslintrc`
   "extends": ["standard-deviation"]
 }
 ```
+Add scripts to `package.json`
+```json
+"scripts": {
+  "lint": "eslint . --ext .js,.jsx",
+  "testonly": "echo \"Error: no test specified\" && exit 1",
+  "test": "npm run lint && npm run testonly"
+}
+```
 
 ### [optional] enable/disable [eslint rules](http://eslint.org/docs/rules/)
 ```json
@@ -33,15 +41,6 @@ Add `extends` to project `.eslintrc`
   "rules": {
     "space-before-function-paren": ["2", "always"]
   }
-}
-```
-
-### Add scripts to `package.json`
-```json
-"scripts": {
-  "lint": "eslint . --ext .js,.jsx",
-  "testonly": "echo \"Error: no test specified\" && exit 1",
-  "test": "npm run lint && npm run testonly"
 }
 ```
 
