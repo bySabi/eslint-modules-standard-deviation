@@ -1,14 +1,12 @@
 {
   "name": "eslint-modules-standard-deviation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "standard deviation eslint config easy setup modules",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bySabi/eslint-modules-standard-deviation.git"
   },
+  "homepage": "https://github.com/bySabi/eslint-modules-standard-deviation#readme",
   "bugs": {
     "url": "https://github.com/bySabi/eslint-modules-standard-deviation/issues"
   },
@@ -23,7 +21,12 @@
     "ES.next",
     "React"
   ],
-  "homepage": "https://github.com/bySabi/eslint-modules-standard-deviation#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "2.x.x || 3.x.x"
+  },
   "dependencies": {
     "babel-eslint": "6.x.x",
     "eslint-config-standard-deviation": "*",
