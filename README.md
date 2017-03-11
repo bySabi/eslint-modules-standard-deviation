@@ -10,13 +10,11 @@
 
 ### npm
 ```bash
-npm install eslint eslint-modules-standard-deviation --save-dev
+npm install eslint babel-eslint eslint-modules-standard-deviation --save-dev
 ```
 
-#### on `npm 2` environments
-```bash
-npm install eslint eslint-config-standard-deviation eslint-modules-standard-deviation --save-dev
-```
+##### Works only in `npm 3` and beyond environments
+
 
 ## Usage
 Add `extends` to project `.eslintrc`
