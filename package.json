@@ -1,6 +1,6 @@
 {
   "name": "eslint-modules-standard-deviation",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "standard deviation eslint config easy setup modules",
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
     "ES5",
     "ES2015",
     "ES.next",
+    "jsx",
     "React"
   ],
   "scripts": {
@@ -33,6 +34,7 @@
     "eslint-config-standard": "7.x.x",
     "eslint-config-standard-jsx": "3.x.x",
     "eslint-config-standard-react": "4.x.x",
+    "eslint-plugin-babel": "4.x.x",
     "eslint-plugin-import": "2.x.x",
     "eslint-plugin-node": "4.x.x",
     "eslint-plugin-promise": "3.x.x",
