@@ -23,7 +23,9 @@
     "React"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "peerDependencies": {
     "eslint": "3.x.x",
@@ -39,11 +41,13 @@
     "eslint-plugin-node": "4.x.x",
     "eslint-plugin-promise": "3.x.x",
     "eslint-plugin-react": "6.x.x",
-    "eslint-plugin-standard": "2.x.x"
+    "eslint-plugin-standard": "2.x.x",
+    "snyk": "^1.31.0"
   },
-  "engines" : {
-    "npm" : "3.x.x || 4.x.x"
+  "engines": {
+    "npm": "3.x.x || 4.x.x"
   },
   "author": "bySabi Files",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
